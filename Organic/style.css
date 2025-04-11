@@ -1,0 +1,61 @@
+.containertwo{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.feedback-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    color: #2c7a2c;
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif; 
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+}
+
+/* Input Fields */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+button {
+    background-color: #2c7a2c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #246b24;
+}
+
+/* Success Message */
+.hidden {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+    background: url(Images/abstract-green-foliage-watercolor-background-with-spring-eco-nature-theme-ai-generated-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+}
+.heading p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-img{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    height: 450px;
+    width: 300px;
+
+}
+.about-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-img:hover img{
+    transform: scale(1.2);
+}
+.about-content {
+    flex: 1;
+
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    padding-top: 10px;
+}
+.about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3e;
+}
+.about-content .read-more:hover{
+    background-color: #3e8e41;
+}
+.features{
+    width: 180vh;
+    height: 120vh;
+    padding-top: 170px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: -110px;
+}
+h2{
+    color:  #4caf50;
+    text-align: center;
+    font-size: 40px;
+}
+.row{
+    padding-top: 50px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 320px;
+    height: 550px;
+    background: #fff;
+    border-radius: 20PX;
+    align-items: center;
+    text-align: center;
+}
+.box img{
+    width: 250px;
+}
+.box h3{
+    font-size: 25px;
+    padding-top: 20px;
+    color: #4caf50;
+}
+.box p{
+    color: #4e746b;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.box .btn{
+    width: 150px;
+    height: 40px;
+    background: #4caf50;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+   
+
+}
+.box .btn:hover{
+    background: #fff;
+    color:  #4caf50;
+    border: 1px solid  #4caf50;
+}
+/* why choose us  */
+.choose{
+    padding-top: 50px;                          
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 34px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 40px;
+    justify-content: center;
+    padding-left: 60px;
+}
+.image{
+    align-items: center;
+    padding-left: 200px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+.image:hover{
+    transform: scale(1.1);
+}
